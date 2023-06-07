@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#main h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#main img{
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0px;
+}
+
+#main h5{
+    text-align: center;
+    color: gray;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#footer li{
+    margin-bottom: 25px;
+}
